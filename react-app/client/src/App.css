@@ -1,0 +1,141 @@
+* {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        outline: 0;
+        font-size: 100%;
+        vertical-align: baseline;
+        background: transparent;
+    }
+
+body{
+ height:100vh;
+ margin-top: 0;
+}
+
+.App {
+  text-align: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-color: #DCDCDC;
+}
+
+
+.Sidebar{
+  width: 35%;
+  height: 90vh;
+  float: left;
+}
+
+.ReactTable{
+	float:left;
+	width: 98%;
+	padding-left: 10px;
+}
+
+
+.vehDrop{
+	width: 30%;
+	float: left;
+}
+
+.sessDrop{
+	width: 30%;
+	float: left;
+}
+
+.loadhelp{
+	width: 30%;
+	float: left;
+}
+
+.help{
+	float: left;
+}
+
+.load{
+	float: left;
+}
+
+h1 {
+  font-family: courier;
+  font-weight: bold;
+  font-style: bold, italic;
+  color: #fff;
+  font-size: 40px;
+}
+
+.Header {
+	height: 8vh;
+	background-color: #2F4F4F;
+}
+
+.Panel{
+	position: absolute;
+    bottom: 0;
+	right: 0;
+	background-color: #DCDCDC;
+	width: 35%;
+}
+
+.ChartSelector{
+	width: 40%;
+	float: left;
+}
+
+.VehicleInfo{
+	width: 100%;
+}
+
+.charts{
+	float: left;
+	width: 30%;
+	height: 92vh;
+	background-color: #D3D3D3;
+}
+
+.canvas-first{
+	float: left;
+	width: 100%;
+}
+
+.canvas-second{
+	float: left;
+	width: 100%;	
+}
+.canvas-third{
+	float: left;
+	width: 100%;	
+}
+
+
+.Maps{
+	height: 55vh;
+	width: 30%;
+}
+
+.Slider{
+	float: left;
+	
+}
+
+.Slider-container{
+	padding: 40px;
+}
+
+.button {
+  background-color: #808080; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.right{
+	text-align: right;
+	padding: 100px;
+}

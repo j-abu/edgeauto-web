@@ -1,0 +1,37 @@
+{
+  "name": "example-create-react-app-express",
+  "version": "1.0.0",
+  "scripts": {
+    "client": "cd client && yarn start",
+    "server": "nodemon server.js",
+    "dev": "concurrently --kill-others-on-fail \"yarn server\" \"yarn client\""
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "btree-js": "^0.1.6",
+    "chart.js": "^2.7.3",
+    "chartjs-plugin-annotation": "^0.5.7",
+    "express": "^4.16.4",
+    "hashmap": "^2.3.0",
+    "leaflet": "^1.4.0",
+    "mysql": "^2.16.0",
+    "pretty-ms": "^4.0.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.6",
+    "react-chartjs": "^1.2.0",
+    "react-chartjs-2": "^2.7.4",
+    "react-compound-timer": "^1.0.12",
+    "react-dom": "^16.8.6",
+    "react-dropdown": "^1.6.4",
+    "react-leaflet": "^2.2.1",
+    "react-modal": "^3.8.1",
+    "react-polyline": "^1.0.0",
+    "react-rangeslider": "^2.2.0",
+    "react-table": "^6.9.2",
+    "sorted-btree": "^1.2.1",
+    "treemap-js": "^1.2.1"
+  },
+  "devDependencies": {
+    "concurrently": "^4.0.1"
+  }
+}
