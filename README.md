@@ -95,7 +95,7 @@ mysql : https://www.npmjs.com/package/mysql
 
 react : https://www.npmjs.com/package/react
 
-react-chartjs : https://www.npmjs.com/package/react-chartjs
+react-chartjs-2 : https://www.npmjs.com/package/react-chartjs-2
 
 react-dropdown : https://www.npmjs.com/package/react-dropdown
     
