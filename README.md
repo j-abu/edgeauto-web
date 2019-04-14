@@ -10,7 +10,7 @@ App created with Nodejs/Reactjs.
 
 **Node 10.15.1**
 
-**Yarn 1.13.0
+**Yarn 1.13.0**
 
 [Preview](https://i.imgur.com/b1yW4QN.png)
 
