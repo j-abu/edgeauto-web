@@ -64,17 +64,26 @@ The geographic map takes the argument `center={this.state.center}` and a polylin
 
 To run this app locally:
 
-First clone the repository to your machine.
+First clone the repository to your machine:
 
-Navigate to the project directory: `cd [path-to-app]/react-app`
+`https://github.com/j-abu/edgeauto-web.git`
 
-Install yarn with the node package manager: `npm i yarn -g`
+Navigate to the project directory: 
 
-Install the required dependencies: `yarn install`
+`cd [path-to-app]/react-app`
 
-Run the application and development server: `yarn dev`
+Install yarn with the node package manager: 
 
-View the application at localhost:3000
+`npm i yarn -g`
+
+Install the required dependencies: 
+`yarn install`
+
+Run the application and development server: 
+
+`yarn dev`
+
+The application should now be available at localhost:3000
 
 
 ## Dependencies
