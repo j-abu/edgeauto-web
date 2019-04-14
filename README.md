@@ -24,11 +24,11 @@ Responsible for setting proxy(from port 3000 to port 1776) and starting the node
 
 Contains the API call definitions(SQL statements) for use by the react application.
 
-To retrieve all available sessions:
+To retrieve all available sessions(`/sessions`):
 
 `SELECT DISTINCT session_id FROM message`
 
-To retrieve all relevant data for a specific session:
+To retrieve all relevant data for a specific session(`/session/vid/sid/`):
 
 `SELECT arb_id, message, cantime, latitude, longitude FROM message WHERE session_id=?`
 
@@ -42,7 +42,7 @@ Application code for web portal.
 
 On page load, an API call to fetch all available sessions(`/getsessions`) is made in the `componentDidMount()` method.
 
-Selecting a session and clicking "load" will make an API call(`/session/1/?`) to fetch all relevant data for the selected session via the `getDataForSession()` method.
+Selecting a session and clicking "load" will make an API call(`/session/vid/sid`) to fetch all relevant data for the selected session via the `getDataForSession()` method.
 
 Session data is stored in a hashmap with the arbitration ID as a key and an object as a value. The object has two members: name and a nested hashmap with time as a key and messages as values:
 
