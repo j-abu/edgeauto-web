@@ -77,6 +77,7 @@ Install yarn with the node package manager:
 `npm i yarn -g`
 
 Install the required dependencies: 
+
 `yarn install`
 
 Run the application and development server: 
