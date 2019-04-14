@@ -62,7 +62,7 @@ First clone the repository to your machine.
 
 Navigate to the project directory: `cd [path-to-app]/react-app`
 
-Install yarn with the node package manager: `npm i yarn --save`
+Install yarn with the node package manager: `npm i yarn -g`
 
 Install all the required dependencies: `yarn install`
 
