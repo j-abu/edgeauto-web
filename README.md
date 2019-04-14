@@ -66,7 +66,7 @@ To run this app locally:
 
 First clone the repository to your machine:
 
-`https://github.com/j-abu/edgeauto-web.git`
+`git clone https://github.com/j-abu/edgeauto-web.git`
 
 Navigate to the project directory: 
 
@@ -119,3 +119,7 @@ react-rangeslider : https://www.npmjs.com/package/react-rangeslider
 react-table : https://www.npmjs.com/package/react-table
 
 react-router : https://www.npmjs.com/package/react-router
+
+## License
+
+There is none. If for some unlikely reason you want to use anything here, you can do so without my permission. I grant thee the privilege.
