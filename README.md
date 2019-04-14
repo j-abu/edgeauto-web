@@ -110,8 +110,3 @@ react-rangeslider : https://www.npmjs.com/package/react-rangeslider
 react-table : https://www.npmjs.com/package/react-table
 
 react-router : https://www.npmjs.com/package/react-router
-
-
-## Inquiries
-
-Contact me at jabu@oakland.edu
