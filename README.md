@@ -1,10 +1,16 @@
 # edgeauto-web
 
-This folder contains all the files used for the web portal displayed on the front end.
+
 
 The portal allows end users to replay data collected from previous driving sessions. The data is displayed in a table, allowing users to plot up to 3 arbitration IDs by selecting an entry. Also featured is a map showing the path a vehicle took for the duration of the driving session.
 
-**Node v10**
+This folder contains all the files used for the web portal displayed on the front end.
+
+App created with Nodejs/Reactjs.
+
+**Node 10.15.1**
+
+**Yarn 1.13.0
 
 [Preview](https://i.imgur.com/b1yW4QN.png)
 
