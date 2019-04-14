@@ -68,6 +68,8 @@ Install all the required dependencies: `yarn install`
 
 Run the application and development server: `yarn dev`
 
+View the application at localhost:3000
+
 
 ## Dependencies
 
