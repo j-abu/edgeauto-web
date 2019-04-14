@@ -54,6 +54,12 @@ Geographical map data is stored in a separate hashmap on session load, with time
 
 Any changes the app makes to the data table, plots or map marker are made through `this.setState({...})`. This forces Reactjs to rerender the componenets instantly.
 
+The data table takes the argument `data={this.state.currentData}` to populate its rows. The state `currentData` is an array of objects with 3 members; name, id and bytes. `currentData` is updated every 300ms.
+
+The plots take the arguments `data={this.state.firstChart}`, `data={this.state.secondChart}` and `data={this.state.thirdChart}` respectively. These arguments are objects with properties specified by [react-chartjs2](https://github.com/jerairrest/react-chartjs-2). These properties are set once a row in the data table is clicked.  
+
+The geographic map takes the argument `center={this.state.center}` and a polyline and marker are drawn on the map with the arguments `positions={this.state.driverPath}` and `position={this.state.latlng}` respectively. `driverPath` is updated on session change, while `marker` has an initial starting value(the starting position) and is updated every 1000ms.
+
 ## Install and run
 
 To run this app locally:
